@@ -7,3 +7,6 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+def move(index, user_marker = 'X')
+  @board[index] = user_marker
+end
