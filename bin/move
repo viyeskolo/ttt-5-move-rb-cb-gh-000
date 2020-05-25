@@ -9,5 +9,5 @@ board = Board.new
 
 puts "Where would you like to go?"
 index = gets.to_i - 1
-board.move(index, 'x')
+board.move(index, '1-9')
 board.display
